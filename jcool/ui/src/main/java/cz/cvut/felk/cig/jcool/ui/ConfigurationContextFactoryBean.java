@@ -7,6 +7,7 @@ package cz.cvut.felk.cig.jcool.ui;
 
 import cz.cvut.felk.cig.jcool.benchmark.function.*;
 import cz.cvut.felk.cig.jcool.benchmark.method.ant.aaca.AACAMethod;
+import cz.cvut.felk.cig.jcool.benchmark.method.abc.ABCMethod;
 import cz.cvut.felk.cig.jcool.benchmark.method.ant.aco.ACOMethod;
 import cz.cvut.felk.cig.jcool.benchmark.method.ant.api.APIMethod;
 import cz.cvut.felk.cig.jcool.benchmark.method.ant.caco.CACOMethod;
@@ -124,6 +125,7 @@ public class ConfigurationContextFactoryBean extends AbstractFactoryBean {
         configurationContext.register(OptimizationMethod.class,
                 Arrays.asList(
                         new AACAMethod(),
+                        new ABCMethod(),
                         new ACOMethod(),
                         new APIMethod(),
                         new CACOMethod(),
