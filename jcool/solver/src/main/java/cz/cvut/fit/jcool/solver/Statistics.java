@@ -5,7 +5,7 @@ package cz.cvut.fit.jcool.solver;
  *
  * <p>
  * Statistics are gathered by
- * {@link cz.cvut.felk.cig.jcool.core.ObjectiveFunction}s.
+ * {@link cz.cvut.fit.jcool.core.ObjectiveFunction}s.
  * and presented as immutable end results of the optimization process.</p>
  *
  * @author ytoh
@@ -45,7 +45,7 @@ public final class Statistics {
 
     /**
      * Returns the number invocations of
-     * {@link cz.cvut.felk.cig.jcool.core.ObjectiveFunction#gradientAt(cz.cvut.felk.cig.jcool.core.Point)}
+     * {@link cz.cvut.fit.jcool.core.ObjectiveFunction#gradientAt(cz.cvut.fit.jcool.core.Point)}
      *
      * @return number of gradient evaluations
      */
@@ -55,7 +55,7 @@ public final class Statistics {
 
     /**
      * Returns the number invocations of
-     * {@link cz.cvut.felk.cig.jcool.core.ObjectiveFunction#hessianAt(cz.cvut.felk.cig.jcool.core.Point)}
+     * {@link cz.cvut.fit.jcool.core.ObjectiveFunction#hessianAt(cz.cvut.fit.jcool.core.Point)}
      *
      * @return number of hessian evaluations
      */
@@ -65,7 +65,7 @@ public final class Statistics {
 
     /**
      * Returns the number invocations of
-     * {@link cz.cvut.felk.cig.jcool.core.ObjectiveFunction#valueAt(cz.cvut.felk.cig.jcool.core.Point)}
+     * {@link cz.cvut.fit.jcool.core.ObjectiveFunction#valueAt(cz.cvut.fit.jcool.core.Point)}
      *
      * @return number of value evaluations
      */
