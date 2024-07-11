@@ -7,7 +7,9 @@ package org.ytoh.configurations.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
+
 import javax.swing.JPanel;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.annotations.Table;
 import org.ytoh.configurations.context.PublishingContext;

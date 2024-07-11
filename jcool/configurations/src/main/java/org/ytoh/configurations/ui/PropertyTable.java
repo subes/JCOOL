@@ -2,9 +2,11 @@ package org.ytoh.configurations.ui;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.swing.JTable;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Transformer;
 import org.ytoh.configurations.Property;

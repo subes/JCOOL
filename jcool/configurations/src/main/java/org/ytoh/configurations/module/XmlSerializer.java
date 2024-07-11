@@ -1,19 +1,17 @@
 package org.ytoh.configurations.module;
 
-import org.apache.commons.configuration.Configuration;
-import org.apache.commons.lang.Validate;
-import org.ytoh.configurations.test.Bean4;
-import org.ytoh.configurations.ui.SelectionSetDelegate;
-
+import java.beans.ExceptionListener;
 import java.beans.PersistenceDelegate;
 import java.beans.XMLEncoder;
-import java.beans.ExceptionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import org.apache.commons.configuration.Configuration;
+import org.apache.commons.lang.Validate;
 
 /**
  *

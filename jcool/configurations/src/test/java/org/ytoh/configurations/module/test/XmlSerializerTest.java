@@ -1,9 +1,12 @@
 package org.ytoh.configurations.module.test;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.commons.configuration.Configuration;
@@ -18,7 +21,6 @@ import org.ytoh.configurations.module.Module;
 import org.ytoh.configurations.module.ModuleSerializer;
 import org.ytoh.configurations.module.Modules;
 import org.ytoh.configurations.module.XmlSerializer;
-import static org.junit.Assert.*;
 
 /**
  *

@@ -5,9 +5,11 @@
 package org.ytoh.configurations.ui;
 
 import java.awt.Component;
+
 import javax.swing.JComponent;
 import javax.swing.JTable;
 import javax.swing.table.TableCellRenderer;
+
 import org.ytoh.configurations.Property;
 
 /**

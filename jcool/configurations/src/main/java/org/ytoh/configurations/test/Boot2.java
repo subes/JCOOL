@@ -10,8 +10,10 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Arrays;
 import java.util.List;
+
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
+
 import org.ytoh.configurations.context.DefaultContext;
 import org.ytoh.configurations.context.DefaultPublishingContext;
 import org.ytoh.configurations.ui.PropertyTable;

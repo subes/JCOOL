@@ -8,7 +8,9 @@ package org.ytoh.configurations.ui;
 import java.awt.Component;
 import java.awt.GridLayout;
 import java.util.List;
+
 import javax.swing.JPanel;
+
 import org.apache.commons.collections.Closure;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.Validate;

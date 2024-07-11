@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 /**
  *

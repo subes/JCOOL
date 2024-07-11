@@ -14,10 +14,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.validation.Validator;
+
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.configuration.Configuration;
 import org.jdesktop.layout.GroupLayout;
@@ -27,6 +28,8 @@ import org.jdesktop.layout.LayoutStyle;
 import org.ytoh.configurations.context.PublishingContext;
 import org.ytoh.configurations.ui.PropertyEditor;
 import org.ytoh.configurations.ui.PropertyRenderer;
+
+import jakarta.validation.Validator;
 
 /**
  * A concrete implementation of the {@link org.ytoh.configurations.MutableProperty} interface wrapping aroung {@link List} fields.

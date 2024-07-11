@@ -1,29 +1,55 @@
 package org.ytoh.configurations.util;
 
+import java.awt.Component;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.log4j.Logger;
-import org.hibernate.validator.engine.ConstraintValidatorFactoryImpl;
-import org.ytoh.configurations.*;
+import org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorFactoryImpl;
+import org.ytoh.configurations.AbstractProperty;
+import org.ytoh.configurations.ConfigurationException;
+import org.ytoh.configurations.ContextAwareConstraintValidatorFactory;
+import org.ytoh.configurations.DefaultArrayProperty;
+import org.ytoh.configurations.DefaultComponentProperty;
+import org.ytoh.configurations.DefaultListProperty;
+import org.ytoh.configurations.DefaultMapProperty;
+import org.ytoh.configurations.DefaultProperty;
+import org.ytoh.configurations.MutableProperty;
+import org.ytoh.configurations.Property;
+import org.ytoh.configurations.PropertyState;
+import org.ytoh.configurations.Sandbox;
 import org.ytoh.configurations.annotations.Editor;
 import org.ytoh.configurations.annotations.Renderer;
 import org.ytoh.configurations.context.Context;
 import org.ytoh.configurations.context.DefaultContext;
 import org.ytoh.configurations.context.DefaultPublishingContext;
 import org.ytoh.configurations.context.PublishingContext;
-import org.ytoh.configurations.ui.*;
+import org.ytoh.configurations.ui.CheckBoxEditor;
+import org.ytoh.configurations.ui.DefaultEditor;
+import org.ytoh.configurations.ui.DefaultRenderer;
+import org.ytoh.configurations.ui.DoubleLabel;
+import org.ytoh.configurations.ui.DoubleTextFieldEditor;
+import org.ytoh.configurations.ui.DropDownEditor;
+import org.ytoh.configurations.ui.IntegerTextFieldEditor;
+import org.ytoh.configurations.ui.PropertyEditor;
+import org.ytoh.configurations.ui.PropertyRenderer;
+import org.ytoh.configurations.ui.PropertyTableEditor;
+import org.ytoh.configurations.ui.TextFieldEditor;
 
-import javax.validation.Configuration;
-import javax.validation.Validation;
-import javax.validation.Validator;
-import javax.validation.bootstrap.GenericBootstrap;
-import java.awt.*;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.util.*;
-import java.util.List;
+import jakarta.validation.Configuration;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
+import jakarta.validation.bootstrap.GenericBootstrap;
 
 /**
  * Utility class able to retrieve component properties.

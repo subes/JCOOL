@@ -1,9 +1,9 @@
 package org.ytoh.configurations.ui;
 
-import com.jgoodies.binding.beans.Model;
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+
+import com.jgoodies.binding.beans.Model;
 
 /**
  * Created by IntelliJ IDEA.

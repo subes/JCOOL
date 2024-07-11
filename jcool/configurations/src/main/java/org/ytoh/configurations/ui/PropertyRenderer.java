@@ -2,6 +2,7 @@ package org.ytoh.configurations.ui;
 
 import java.awt.Component;
 import java.lang.annotation.Annotation;
+
 import org.ytoh.configurations.Property;
 
 /**

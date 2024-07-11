@@ -6,6 +6,7 @@
 package org.ytoh.configurations;
 
 import java.lang.annotation.Annotation;
+
 import org.ytoh.configurations.context.PublishingContext;
 import org.ytoh.configurations.ui.PropertyEditor;
 import org.ytoh.configurations.ui.PropertyRenderer;

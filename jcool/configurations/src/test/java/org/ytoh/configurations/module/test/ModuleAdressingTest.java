@@ -1,12 +1,13 @@
 package org.ytoh.configurations.module.test;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.ytoh.configurations.module.BasicModule;
 import org.ytoh.configurations.module.Module;
 import org.ytoh.configurations.module.Modules;
 import org.ytoh.configurations.test.Bean2;
-import static org.junit.Assert.*;
 
 /**
  *

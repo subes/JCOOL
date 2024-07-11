@@ -4,20 +4,23 @@
  */
 package org.ytoh.configurations.ui;
 
-import com.jgoodies.binding.adapter.ComboBoxAdapter;
-import com.jgoodies.binding.beans.PropertyAdapter;
-import com.jgoodies.binding.value.ValueModel;
 import java.awt.Component;
 import java.util.List;
+
 import javax.swing.DefaultListCellRenderer;
 import javax.swing.JComboBox;
 import javax.swing.JList;
+
 import org.apache.commons.lang.StringUtils;
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.context.Publisher;
 import org.ytoh.configurations.context.PublishingContext;
 import org.ytoh.configurations.context.Subscriber;
 import org.ytoh.configurations.ui.DynamicDropDown.Label;
+
+import com.jgoodies.binding.adapter.ComboBoxAdapter;
+import com.jgoodies.binding.beans.PropertyAdapter;
+import com.jgoodies.binding.value.ValueModel;
 
 /**
  * A {@link PropertyEditor} instance retrieving values dynamicaly for a {@link Context} instance.

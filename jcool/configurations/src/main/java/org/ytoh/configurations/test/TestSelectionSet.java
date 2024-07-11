@@ -1,13 +1,13 @@
 package org.ytoh.configurations.test;
 
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
 import org.ytoh.configurations.module.BasicModule;
 import org.ytoh.configurations.module.Module;
 import org.ytoh.configurations.module.Modules;
 import org.ytoh.configurations.module.XmlSerializer;
 import org.ytoh.configurations.ui.SelectionSetModel;
-
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 
 /**
  * Created by IntelliJ IDEA.

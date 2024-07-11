@@ -1,12 +1,15 @@
 package org.ytoh.configurations.ui;
 
+import java.awt.Component;
+
+import javax.swing.JCheckBox;
+
+import org.ytoh.configurations.Property;
+import org.ytoh.configurations.context.PublishingContext;
+
 import com.jgoodies.binding.adapter.ToggleButtonAdapter;
 import com.jgoodies.binding.beans.PropertyAdapter;
 import com.jgoodies.binding.value.ValueModel;
-import java.awt.Component;
-import javax.swing.JCheckBox;
-import org.ytoh.configurations.Property;
-import org.ytoh.configurations.context.PublishingContext;
 
 /**
  * A {@link PropertyEditor} and {@link PropertyRenderer} implementation binding

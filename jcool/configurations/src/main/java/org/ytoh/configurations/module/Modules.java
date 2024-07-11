@@ -1,13 +1,13 @@
 package org.ytoh.configurations.module;
 
+import java.util.Stack;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.commons.lang.Validate;
-
-import java.util.Stack;
 
 /**
  *

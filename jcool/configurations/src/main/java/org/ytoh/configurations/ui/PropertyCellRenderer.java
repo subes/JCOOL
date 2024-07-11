@@ -3,11 +3,13 @@ package org.ytoh.configurations.ui;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.GridLayout;
+
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.table.TableCellRenderer;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.PropertyState;
 

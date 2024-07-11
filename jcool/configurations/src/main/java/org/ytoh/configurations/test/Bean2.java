@@ -1,13 +1,13 @@
 package org.ytoh.configurations.test;
 
-import javax.validation.constraints.AssertTrue;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-
 import org.hibernate.validator.constraints.NotEmpty;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
 import org.ytoh.configurations.annotations.Range;
+
+import jakarta.validation.constraints.AssertTrue;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 
 /**
  *

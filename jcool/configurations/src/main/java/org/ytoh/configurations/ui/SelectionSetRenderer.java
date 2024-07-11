@@ -1,15 +1,18 @@
 package org.ytoh.configurations.ui;
 
-import com.jgoodies.binding.beans.PropertyAdapter;
-import com.jgoodies.binding.value.ValueModel;
+import java.awt.Component;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.annotations.SelectionSet;
 import org.ytoh.configurations.test.Bean4;
 
-import javax.swing.*;
-import java.awt.*;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import com.jgoodies.binding.beans.PropertyAdapter;
+import com.jgoodies.binding.value.ValueModel;
 
 /**
  * Created by IntelliJ IDEA.

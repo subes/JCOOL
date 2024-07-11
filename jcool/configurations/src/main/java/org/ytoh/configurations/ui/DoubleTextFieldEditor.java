@@ -1,12 +1,14 @@
 package org.ytoh.configurations.ui;
 
+import java.awt.Component;
+import java.text.DecimalFormat;
+
+import org.ytoh.configurations.Property;
+import org.ytoh.configurations.context.PublishingContext;
+
 import com.jgoodies.binding.adapter.BasicComponentFactory;
 import com.jgoodies.binding.beans.PropertyAdapter;
 import com.jgoodies.binding.value.ValueModel;
-import java.awt.Component;
-import java.text.DecimalFormat;
-import org.ytoh.configurations.Property;
-import org.ytoh.configurations.context.PublishingContext;
 
 /**
  * A {@link PropertyEditor} instance editing numer properties with a formatted

@@ -1,6 +1,10 @@
 package org.ytoh.configurations.module;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 import org.apache.commons.lang.Validate;
 

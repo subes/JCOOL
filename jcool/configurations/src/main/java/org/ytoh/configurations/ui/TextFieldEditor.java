@@ -1,15 +1,18 @@
 package org.ytoh.configurations.ui;
 
-import com.jgoodies.binding.adapter.BasicComponentFactory;
-import com.jgoodies.binding.beans.PropertyAdapter;
-import com.jgoodies.binding.value.ValueModel;
 import java.awt.Component;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+
 import javax.swing.JTextField;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.PropertyState;
 import org.ytoh.configurations.context.PublishingContext;
+
+import com.jgoodies.binding.adapter.BasicComponentFactory;
+import com.jgoodies.binding.beans.PropertyAdapter;
+import com.jgoodies.binding.value.ValueModel;
 
 /**
  * A {@link PropertyEditor} implementation binding the underlying {@link Property} value to a JTextField.

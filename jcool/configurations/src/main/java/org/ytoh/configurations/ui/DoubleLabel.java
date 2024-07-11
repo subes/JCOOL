@@ -1,7 +1,5 @@
 package org.ytoh.configurations.ui;
 
-import com.jgoodies.binding.beans.PropertyAdapter;
-import com.jgoodies.binding.value.ValueModel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -9,9 +7,14 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.lang.annotation.Annotation;
 import java.text.DecimalFormat;
+
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 import org.ytoh.configurations.Property;
+
+import com.jgoodies.binding.beans.PropertyAdapter;
+import com.jgoodies.binding.value.ValueModel;
 
 /**
  * A {@link PropertyRenderer} implementation displaying the value of a number

@@ -1,16 +1,18 @@
 package org.ytoh.configurations.test;
 
+import java.awt.BorderLayout;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+
 import org.ytoh.configurations.ConfigurationException;
 import org.ytoh.configurations.context.DefaultContext;
 import org.ytoh.configurations.context.DefaultPublishingContext;
 import org.ytoh.configurations.ui.PropertyTable;
 import org.ytoh.configurations.ui.SelectionSetModel;
 import org.ytoh.configurations.util.AnnotationPropertyExtractor;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 
 /**
  * @author ytoh

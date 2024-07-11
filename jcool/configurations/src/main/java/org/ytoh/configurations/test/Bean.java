@@ -5,13 +5,14 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 //import org.hibernate.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.ytoh.configurations.PropertyState;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
-import org.ytoh.configurations.ui.CheckBox;
 import org.ytoh.configurations.annotations.Table;
+import org.ytoh.configurations.ui.CheckBox;
 
 /**
  *

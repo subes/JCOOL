@@ -2,6 +2,7 @@ package org.ytoh.configurations.util;
 
 import java.lang.reflect.Field;
 import java.util.List;
+
 import org.ytoh.configurations.Property;
 
 /**

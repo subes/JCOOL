@@ -1,9 +1,10 @@
 package org.ytoh.configurations;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorFactory;
 import org.ytoh.configurations.context.ContextAware;
 import org.ytoh.configurations.context.MutableContext;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorFactory;
 
 /**
  *
@@ -31,4 +32,9 @@ public class ContextAwareConstraintValidatorFactory implements ConstraintValidat
 
         return instance;
     }
+
+	@Override
+	public void releaseInstance(ConstraintValidator<?, ?> instance) {
+		//noop
+	}
 }

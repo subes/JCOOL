@@ -1,7 +1,9 @@
 package org.ytoh.configurations;
 
 import java.awt.Component;
+
 import org.apache.commons.configuration.Configuration;
+import org.apache.commons.configuration.DefaultConfigurationBuilder.ConfigurationProvider;
 
 /**
  * Represents a configurable field on an object.

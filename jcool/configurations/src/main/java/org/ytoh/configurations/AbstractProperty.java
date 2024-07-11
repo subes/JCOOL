@@ -11,14 +11,16 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
-import javax.validation.ConstraintViolation;
-import javax.validation.Validator;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.lang.StringUtils;
 import org.ytoh.configurations.context.PublishingContext;
 import org.ytoh.configurations.ui.PropertyEditor;
 import org.ytoh.configurations.ui.PropertyRenderer;
+
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validator;
 
 /**
  * A skeletal implementation of the {@link MutableProperty} interface.

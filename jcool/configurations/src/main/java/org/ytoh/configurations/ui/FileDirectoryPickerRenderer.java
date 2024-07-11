@@ -1,16 +1,19 @@
 package org.ytoh.configurations.ui;
 
+import java.awt.Component;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import org.ytoh.configurations.Property;
+import org.ytoh.configurations.annotations.FileDirectoryPicker;
+
 import com.jgoodies.binding.beans.PropertyAdapter;
 import com.jgoodies.binding.value.ValueModel;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
-import org.ytoh.configurations.Property;
-import org.ytoh.configurations.annotations.FileDirectoryPicker;
-
-import javax.swing.*;
-import java.awt.*;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 
 /**
  * Created by IntelliJ IDEA.

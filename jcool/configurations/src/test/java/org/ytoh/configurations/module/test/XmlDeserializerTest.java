@@ -1,14 +1,15 @@
 package org.ytoh.configurations.module.test;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.collections.Predicate;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.PropertiesConfiguration;
-import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import org.apache.commons.collections.Predicate;
 import org.ytoh.configurations.module.BasicModule;
 import org.ytoh.configurations.module.Module;
 import org.ytoh.configurations.module.ModuleDeserializer;

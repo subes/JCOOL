@@ -1,8 +1,8 @@
 package org.ytoh.configurations.module;
 
-import org.apache.commons.configuration.Configuration;
-
 import java.beans.PersistenceDelegate;
+
+import org.apache.commons.configuration.Configuration;
 
 /**
  *

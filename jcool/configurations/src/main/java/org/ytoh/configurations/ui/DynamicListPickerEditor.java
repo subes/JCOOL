@@ -1,8 +1,10 @@
 package org.ytoh.configurations.ui;
 
 import java.awt.Component;
+
 import javax.swing.JButton;
 import javax.swing.JDialog;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.context.PublishingContext;
 

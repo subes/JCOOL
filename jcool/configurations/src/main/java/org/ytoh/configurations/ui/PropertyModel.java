@@ -1,7 +1,9 @@
 package org.ytoh.configurations.ui;
 
 import java.util.List;
+
 import javax.swing.table.AbstractTableModel;
+
 import org.apache.commons.lang.Validate;
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.PropertyState;

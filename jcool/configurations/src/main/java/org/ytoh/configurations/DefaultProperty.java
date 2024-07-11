@@ -2,9 +2,11 @@ package org.ytoh.configurations;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import javax.validation.Validator;
+
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.configuration.Configuration;
+
+import jakarta.validation.Validator;
 
 /**
  * The default implementation of the {@link Property} interface.

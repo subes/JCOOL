@@ -1,8 +1,9 @@
 package org.ytoh.configurations;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 import org.ytoh.configurations.annotations.Range;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 /**
  * A {@link ConstraintValidator} instance validating numbers for a certain range.

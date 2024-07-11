@@ -1,12 +1,15 @@
 package org.ytoh.configurations.ui;
 
+import java.awt.Component;
+
+import javax.swing.JComboBox;
+
+import org.ytoh.configurations.Property;
+import org.ytoh.configurations.context.PublishingContext;
+
 import com.jgoodies.binding.adapter.ComboBoxAdapter;
 import com.jgoodies.binding.beans.PropertyAdapter;
 import com.jgoodies.binding.value.ValueModel;
-import java.awt.Component;
-import javax.swing.JComboBox;
-import org.ytoh.configurations.Property;
-import org.ytoh.configurations.context.PublishingContext;
 
 /**
  * A {@link PropertyEditor} instance editing property values using a JComboBox.

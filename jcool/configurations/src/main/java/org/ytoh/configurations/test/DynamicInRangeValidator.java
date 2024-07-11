@@ -1,9 +1,10 @@
 package org.ytoh.configurations.test;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 import org.ytoh.configurations.context.ContextAware;
 import org.ytoh.configurations.context.MutableContext;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 /**
  *
