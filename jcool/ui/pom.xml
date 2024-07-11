@@ -3,12 +3,11 @@
     <parent>
         <artifactId>jcool</artifactId>
         <groupId>cz.cvut.fit.jcool</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jcool-ui</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
     <name>jcool-ui</name>
     <url>http://maven.apache.org</url>
 
@@ -104,22 +103,22 @@
         <dependency>
             <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>jcool-solver</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.ytoh</groupId>
+            <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>configurations</artifactId>
-            <version>0.6.3-SNAPSHOT</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>jcool-experiment</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>jcool-benchmark</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

@@ -3,12 +3,11 @@
     <parent>
         <artifactId>jcool</artifactId>
         <groupId>cz.cvut.fit.jcool</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jcool-core</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
     <name>jcool-core</name>
     <url>https://github.com/cvut/JCOOL/tree/master/jcool/core</url>
     <description>Java COntinuous Optimization Library</description>

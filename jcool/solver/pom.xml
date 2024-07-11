@@ -3,12 +3,11 @@
     <parent>
         <artifactId>jcool</artifactId>
         <groupId>cz.cvut.fit.jcool</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jcool-solver</artifactId>
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
     <name>jcool-solver</name>
     <url>https://github.com/cvut/jcool-solver</url>
     <description>Java COntinuous Optimization Library - solver</description>
@@ -115,9 +114,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.ytoh</groupId>
+            <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>configurations</artifactId>
-            <version>0.6.3-SNAPSHOT</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>commons-collections</groupId>
