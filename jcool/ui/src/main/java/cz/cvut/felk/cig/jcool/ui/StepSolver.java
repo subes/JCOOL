@@ -4,20 +4,22 @@
  */
 package cz.cvut.felk.cig.jcool.ui;
 
-import cz.cvut.felk.cig.jcool.core.Consumer;
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationException;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.StopCondition;
-import cz.cvut.felk.cig.jcool.solver.OptimizationResults;
-import cz.cvut.felk.cig.jcool.solver.Solver;
-import cz.cvut.felk.cig.jcool.solver.Synchronization;
 import java.util.HashSet;
+
 import org.apache.log4j.Logger;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
 import org.ytoh.configurations.annotations.Range;
+
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationException;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.StopCondition;
+import cz.cvut.fit.jcool.solver.OptimizationResults;
+import cz.cvut.fit.jcool.solver.Solver;
+import cz.cvut.fit.jcool.solver.Synchronization;
 
 /**
  *

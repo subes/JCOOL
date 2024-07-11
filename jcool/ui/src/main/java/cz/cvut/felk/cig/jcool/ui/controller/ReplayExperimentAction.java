@@ -5,11 +5,12 @@
 
 package cz.cvut.felk.cig.jcool.ui.controller;
 
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunner;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunner.State;
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
 import javax.swing.AbstractAction;
+
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunner;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunner.State;
 
 /**
  *

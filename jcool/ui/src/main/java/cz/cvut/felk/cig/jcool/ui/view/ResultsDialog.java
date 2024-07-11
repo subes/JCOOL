@@ -4,10 +4,11 @@
  */
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.experiment.BasicExperimentRunner;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunner.State;
 import cz.cvut.felk.cig.jcool.ui.controller.SaveResultsAction;
 import cz.cvut.felk.cig.jcool.ui.util.ViewUtils;
+import cz.cvut.fit.cig.jcool.experiment.BasicExperimentRunner;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunner.State;
+
 import org.apache.commons.lang.SystemUtils;
 import org.jdesktop.layout.GroupLayout;
 import org.jdesktop.layout.LayoutStyle;

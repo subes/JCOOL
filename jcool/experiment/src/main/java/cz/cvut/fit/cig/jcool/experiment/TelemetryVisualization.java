@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.fit.jcool.experiment;
+package cz.cvut.fit.cig.jcool.experiment;
 
-import cz.cvut.fit.jcool.Consumer;
-import cz.cvut.fit.jcool.Function;
-import cz.cvut.fit.jcool.Telemetry;
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.Telemetry;
 
 /**
  *

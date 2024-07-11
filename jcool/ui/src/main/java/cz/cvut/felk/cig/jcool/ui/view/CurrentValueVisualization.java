@@ -4,18 +4,21 @@
  */
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.ValueTelemetry;
-import cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization;
-import cz.cvut.felk.cig.jcool.experiment.Iteration;
 import java.awt.BorderLayout;
+
 import javax.swing.JPanel;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.ytoh.configurations.annotations.Component;
+
+import cz.cvut.fit.cig.jcool.experiment.Iteration;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.ValueTelemetry;
 
 /**
  *

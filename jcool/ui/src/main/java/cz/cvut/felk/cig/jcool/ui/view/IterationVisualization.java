@@ -5,14 +5,16 @@
 
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.ValueTelemetry;
-import cz.cvut.felk.cig.jcool.experiment.Iteration;
-import cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 import org.jdesktop.layout.GroupLayout;
+
+import cz.cvut.fit.cig.jcool.experiment.Iteration;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.ValueTelemetry;
 
 /**
  *

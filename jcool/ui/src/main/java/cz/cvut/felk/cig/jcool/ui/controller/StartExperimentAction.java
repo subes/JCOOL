@@ -5,19 +5,23 @@
 
 package cz.cvut.felk.cig.jcool.ui.controller;
 
-import cz.cvut.felk.cig.jcool.experiment.BasicExperimentRunner;
-import cz.cvut.felk.cig.jcool.ui.model.Visualization;
-import cz.cvut.felk.cig.jcool.ui.view.IterationVisualization;
-import cz.cvut.felk.cig.jcool.ui.view.VisualizationControls;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+
 import javax.swing.AbstractAction;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
+
 import org.apache.commons.lang.SystemUtils;
 import org.ytoh.configurations.PropertyState;
+
+import cz.cvut.felk.cig.jcool.ui.model.Visualization;
+import cz.cvut.felk.cig.jcool.ui.view.IterationVisualization;
+import cz.cvut.felk.cig.jcool.ui.view.VisualizationControls;
+import cz.cvut.fit.cig.jcool.experiment.BasicExperimentRunner;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
 
 /**
  *
@@ -81,13 +85,13 @@ public class StartExperimentAction extends AbstractAction implements PropertyCha
     }
 
     public void actionPerformed(ActionEvent e) {
-        cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization primaryVisualization = visualization.getPrimaryVisualization();
+        TelemetryVisualization primaryVisualization = visualization.getPrimaryVisualization();
         if(primaryVisualization != null) {
             primaryVisualization.attachTo(primaryVisualizationPanel);
             experimentRunner.addVisualization(primaryVisualization);
         }
 
-        cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization secondaryVisualization = visualization.getSecondaryVisualization();
+        TelemetryVisualization secondaryVisualization = visualization.getSecondaryVisualization();
         if(secondaryVisualization != null) {
             secondaryVisualization.attachTo(secondaryVisualizationPanel);
             experimentRunner.addVisualization(secondaryVisualization);

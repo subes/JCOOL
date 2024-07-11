@@ -5,19 +5,22 @@
 
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.experiment.Iteration;
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
 import javax.swing.JPanel;
+
 import org.ytoh.configurations.annotations.Component;
+
+import cz.cvut.fit.cig.jcool.experiment.Iteration;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.Telemetry;
 
 /**
  *
  * @author ytoh
  */
 @Component(name="No visualization")
-public class NullVisualization implements cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization<Telemetry> {
+public class NullVisualization implements TelemetryVisualization<Telemetry> {
 
     public void init(Function function) {
     }

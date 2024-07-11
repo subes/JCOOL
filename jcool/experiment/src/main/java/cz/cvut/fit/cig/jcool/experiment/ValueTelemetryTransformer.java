@@ -3,13 +3,20 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.fit.jcool.experiment;
-
-import cz.cvut.fit.jcool.*;
-import cz.cvut.fit.jcool.ValuePointListTelemetryColored;
+package cz.cvut.fit.cig.jcool.experiment;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.core.ValuePoint;
+import cz.cvut.fit.jcool.core.ValuePointColored;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetry;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetryColored;
+import cz.cvut.fit.jcool.core.ValuePointTelemetry;
+import cz.cvut.fit.jcool.core.ValueTelemetry;
 
 /**
  *

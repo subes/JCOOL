@@ -5,11 +5,10 @@
 
 package cz.cvut.felk.cig.jcool.ui;
 
-import cz.cvut.felk.cig.jcool.core.StopCondition;
-import cz.cvut.felk.cig.jcool.ui.model.OptimizationMethodDetail;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
+
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.JLabel;
@@ -19,9 +18,13 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.border.EtchedBorder;
 import javax.swing.table.TableCellRenderer;
+
 import org.jdesktop.layout.GroupLayout;
 import org.jdesktop.layout.LayoutStyle;
 import org.ytoh.configurations.Property;
+
+import cz.cvut.felk.cig.jcool.ui.model.OptimizationMethodDetail;
+import cz.cvut.fit.jcool.core.StopCondition;
 
 /**
  *

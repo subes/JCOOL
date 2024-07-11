@@ -4,19 +4,12 @@
  */
 package cz.cvut.felk.cig.jcool.ui.model;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.StopCondition;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization;
-import cz.cvut.felk.cig.jcool.solver.Solver;
-import cz.cvut.felk.cig.jcool.ui.view.*;
-
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.ytoh.configurations.annotations.Component;
@@ -24,6 +17,21 @@ import org.ytoh.configurations.annotations.Property;
 import org.ytoh.configurations.context.MutableContext;
 import org.ytoh.configurations.ui.DynamicDropDown;
 import org.ytoh.configurations.ui.DynamicDropDown.Label;
+
+import cz.cvut.felk.cig.jcool.ui.view.CovarianceMultipointTracker;
+import cz.cvut.felk.cig.jcool.ui.view.CurrentValueVisualization;
+import cz.cvut.felk.cig.jcool.ui.view.MultiPointTracker;
+import cz.cvut.felk.cig.jcool.ui.view.MultiPointTrackerColored;
+import cz.cvut.felk.cig.jcool.ui.view.NullVisualization;
+import cz.cvut.felk.cig.jcool.ui.view.SinglePointTracker;
+import cz.cvut.felk.cig.jcool.ui.view.TelemetryPanel;
+import cz.cvut.felk.cig.jcool.ui.view.VisualizationControls;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.StopCondition;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.solver.Solver;
 
 /**
  *

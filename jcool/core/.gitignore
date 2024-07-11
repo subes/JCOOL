@@ -1,3 +1,7 @@
 target/*
 pom.xml.releaseBackup
 release.properties
+/.project
+/.settings/
+/target/
+/.classpath

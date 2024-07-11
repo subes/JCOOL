@@ -4,29 +4,19 @@
  */
 package cz.cvut.felk.cig.jcool.ui;
 
-import cz.cvut.felk.cig.jcool.benchmark.function.RosenbrockFunction;
-import cz.cvut.felk.cig.jcool.benchmark.method.direct.DirectMethod;
-import cz.cvut.felk.cig.jcool.benchmark.method.gradient.cg.ConjugateGradientMethod;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRun;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunSaver;
-import cz.cvut.felk.cig.jcool.solver.SolverFactory;
-import cz.cvut.felk.cig.jcool.ui.util.ViewUtils;
-import cz.cvut.felk.cig.jcool.experiment.BasicExperimentRunner;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunner;
-import cz.cvut.felk.cig.jcool.ui.util.JTextAreaAppender;
-import cz.cvut.felk.cig.jcool.ui.view.Experiment;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
@@ -41,6 +31,18 @@ import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cz.cvut.felk.cig.jcool.ui.util.JTextAreaAppender;
+import cz.cvut.felk.cig.jcool.ui.util.ViewUtils;
+import cz.cvut.felk.cig.jcool.ui.view.Experiment;
+import cz.cvut.fit.cig.jcool.experiment.BasicExperimentRunner;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRun;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunSaver;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunner;
+import cz.cvut.fit.jcool.benchmark.function.RosenbrockFunction;
+import cz.cvut.fit.jcool.benchmark.method.direct.DirectMethod;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.solver.SolverFactory;
 
 /**
  *

@@ -7,13 +7,14 @@ package cz.cvut.felk.cig.jcool.ui.view;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 import org.jdesktop.layout.GroupLayout;
 
 /**
  *
  * @author ytoh
  */
-public class Telemetry extends JPanel {
+public class TelemetryPanel extends JPanel {
     private JLabel elapsedTime;
     private JLabel iterations;
     private JLabel currentValue;

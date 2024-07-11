@@ -5,12 +5,13 @@
 
 package cz.cvut.felk.cig.jcool.ui.model;
 
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.StopCondition;
 import org.apache.log4j.Logger;
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.util.AnnotationPropertyExtractor;
+
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.StopCondition;
 
 /**
  *

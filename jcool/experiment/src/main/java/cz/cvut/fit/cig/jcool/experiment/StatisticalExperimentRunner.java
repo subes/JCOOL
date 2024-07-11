@@ -3,14 +3,15 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.fit.jcool.experiment;
+package cz.cvut.fit.cig.jcool.experiment;
 
-import cz.cvut.fit.jcool.Function;
-import cz.cvut.fit.jcool.OptimizationMethod;
-import cz.cvut.fit.jcool.Telemetry;
-import cz.cvut.fit.jcool.solver.Solver;
 import java.util.ArrayList;
 import java.util.List;
+
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.solver.Solver;
 
 /**
  *

@@ -5,14 +5,15 @@
 
 package cz.cvut.felk.cig.jcool.ui.controller;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunner;
-import cz.cvut.felk.cig.jcool.solver.Solver;
-import cz.cvut.felk.cig.jcool.ui.model.ExperimentSetup;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+
+import cz.cvut.felk.cig.jcool.ui.model.ExperimentSetup;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunner;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.solver.Solver;
 
 /**
  *

@@ -3,9 +3,10 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.fit.jcool.experiment.util;
+package cz.cvut.fit.cig.jcool.experiment.util;
 
-import cz.cvut.fit.jcool.*;
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.Producer;
 
 /**
  *

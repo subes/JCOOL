@@ -5,8 +5,6 @@
 
 package cz.cvut.felk.cig.jcool.ui.controller;
 
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRun;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRunSaver;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -18,6 +16,9 @@ import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import org.apache.commons.lang.SystemUtils;
 import org.apache.log4j.Logger;
+
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRun;
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRunSaver;
 
 /**
  *

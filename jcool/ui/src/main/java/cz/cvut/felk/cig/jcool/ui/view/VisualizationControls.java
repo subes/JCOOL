@@ -5,13 +5,16 @@
 
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.ui.model.Visualization;
 import java.awt.FlowLayout;
 import java.util.List;
+
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.util.PropertyExtractor;
+
+import cz.cvut.felk.cig.jcool.ui.model.Visualization;
 
 /**
  *

@@ -1,15 +1,22 @@
 
 
-package cz.cvut.felk.cig.jcool.benchmark.method.abc;
+package cz.cvut.fit.jcool.benchmark.method;
 
-import cz.cvut.felk.cig.jcool.benchmark.stopcondition.SimpleStopCondition;
-import cz.cvut.felk.cig.jcool.core.*;
-import cz.cvut.felk.cig.jcool.utils.MachineAccuracy;
+import java.util.Arrays;
+
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
 import org.ytoh.configurations.annotations.Range;
 
-import java.util.Arrays;
+import cz.cvut.fit.jcool.benchmark.stopcondition.SimpleStopCondition;
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.ObjectiveFunction;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Point;
+import cz.cvut.fit.jcool.core.StopCondition;
+import cz.cvut.fit.jcool.core.ValuePoint;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetry;
+import cz.cvut.fit.jcool.utils.MachineAccuracy;
 
 /**
  * Created by IntelliJ IDEA.

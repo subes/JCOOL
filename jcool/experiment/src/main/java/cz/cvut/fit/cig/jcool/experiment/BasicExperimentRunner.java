@@ -2,25 +2,37 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.felk.cig.jcool.experiment;
-
-import cz.cvut.fit.jcool.core.Function;
-import cz.cvut.fit.jcool.core.OptimizationMethod;
-import cz.cvut.fit.jcool.core.Producer;
-import cz.cvut.fit.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRun.ExperimentRunBuilder;
-import cz.cvut.felk.cig.jcool.experiment.util.*;
-import cz.cvut.fit.jcool.solver.Solver;
-import cz.cvut.fit.jcool.solver.UserInterruptStopCondition;
-import org.apache.log4j.Logger;
-import org.ytoh.configurations.util.Annotations;
+package cz.cvut.fit.cig.jcool.experiment;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
+
+import org.apache.log4j.Logger;
+import org.ytoh.configurations.util.Annotations;
+
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRun.ExperimentRunBuilder;
+import cz.cvut.fit.cig.jcool.experiment.util.Aggregator;
+import cz.cvut.fit.cig.jcool.experiment.util.Consumers;
+import cz.cvut.fit.cig.jcool.experiment.util.Filter;
+import cz.cvut.fit.cig.jcool.experiment.util.Producers;
+import cz.cvut.fit.cig.jcool.experiment.util.Transformer;
+import cz.cvut.fit.cig.jcool.experiment.util.Wrapper;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.solver.Solver;
+import cz.cvut.fit.jcool.solver.UserInterruptStopCondition;
 
 /**
  *

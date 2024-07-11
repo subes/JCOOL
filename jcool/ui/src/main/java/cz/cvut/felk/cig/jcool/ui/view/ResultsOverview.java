@@ -4,12 +4,13 @@
  */
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.experiment.ExperimentRun;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import org.jdesktop.layout.GroupLayout;
 import org.jdesktop.layout.LayoutStyle;
+
+import cz.cvut.fit.cig.jcool.experiment.ExperimentRun;
 
 /**
  *

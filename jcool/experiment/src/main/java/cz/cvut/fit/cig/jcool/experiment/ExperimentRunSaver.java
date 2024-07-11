@@ -2,11 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.fit.jcool.experiment;
+package cz.cvut.fit.cig.jcool.experiment;
 
-import cz.cvut.fit.jcool.*;
-import cz.cvut.fit.jcool.solver.OptimizationResults;
-import cz.cvut.fit.jcool.solver.Statistics;
 import java.beans.DefaultPersistenceDelegate;
 import java.beans.Encoder;
 import java.beans.Expression;
@@ -17,7 +14,18 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 import org.ytoh.configurations.util.ComponentInfo;
+
+import cz.cvut.fit.jcool.core.Point;
+import cz.cvut.fit.jcool.core.ValuePoint;
+import cz.cvut.fit.jcool.core.ValuePointColored;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetry;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetryColored;
+import cz.cvut.fit.jcool.core.ValuePointTelemetry;
+import cz.cvut.fit.jcool.core.ValueTelemetry;
+import cz.cvut.fit.jcool.solver.OptimizationResults;
+import cz.cvut.fit.jcool.solver.Statistics;
 
 /**
  *

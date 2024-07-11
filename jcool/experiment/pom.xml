@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.ytoh</groupId>
             <artifactId>configurations</artifactId>
-            <version>0.6.2</version>
+            <version>0.6.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

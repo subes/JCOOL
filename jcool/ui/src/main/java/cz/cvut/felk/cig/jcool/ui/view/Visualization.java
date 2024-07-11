@@ -4,17 +4,19 @@
  */
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.ui.model.Visualization.Type;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+
 import javax.swing.BorderFactory;
 import javax.swing.JComponent;
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
+
+import cz.cvut.felk.cig.jcool.ui.model.Visualization.Type;
 
 /**
  *

@@ -4,14 +4,15 @@
  */
 package cz.cvut.felk.cig.jcool.ui.model;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.FunctionBounds;
-import cz.cvut.felk.cig.jcool.core.FunctionGradient;
-import cz.cvut.felk.cig.jcool.core.FunctionHessian;
 import org.apache.log4j.Logger;
 import org.ytoh.configurations.Property;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.util.AnnotationPropertyExtractor;
+
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.FunctionBounds;
+import cz.cvut.fit.jcool.core.FunctionGradient;
+import cz.cvut.fit.jcool.core.FunctionHessian;
 
 /**
  *

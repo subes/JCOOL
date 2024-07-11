@@ -5,22 +5,23 @@
 
 package cz.cvut.felk.cig.jcool.ui.model;
 
-import cz.cvut.felk.cig.jcool.benchmark.method.evolutionary.DistanceFunction;
-import cz.cvut.felk.cig.jcool.benchmark.method.evolutionary.EvolutionaryOptimizationMethod;
-import cz.cvut.felk.cig.jcool.benchmark.method.evolutionary.Representation;
-import cz.cvut.felk.cig.jcool.benchmark.method.evolutionary.ReproductionOperator;
-import cz.cvut.felk.cig.jcool.benchmark.method.evolutionary.operators.reproduction.HillClimbingMutationOperator;
-import cz.cvut.felk.cig.jcool.core.*;
-import cz.cvut.felk.cig.jcool.ui.util.ViewUtils;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
+import java.util.List;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.ytoh.configurations.context.MutableContext;
 import org.ytoh.configurations.util.PropertyExtractor;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.util.List;
+import cz.cvut.felk.cig.jcool.ui.util.ViewUtils;
+import cz.cvut.fit.jcool.benchmark.method.evolutionary.DistanceFunction;
+import cz.cvut.fit.jcool.benchmark.method.evolutionary.EvolutionaryOptimizationMethod;
+import cz.cvut.fit.jcool.benchmark.method.evolutionary.Representation;
+import cz.cvut.fit.jcool.benchmark.method.evolutionary.ReproductionOperator;
+import cz.cvut.fit.jcool.benchmark.method.evolutionary.operators.reproduction.HillClimbingMutationOperator;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
 
 /**
  * Model for ExperimentDetails view. Cares only about method and methodComponents tabs. The rest is controlled directly by events from ExperimentSetup.

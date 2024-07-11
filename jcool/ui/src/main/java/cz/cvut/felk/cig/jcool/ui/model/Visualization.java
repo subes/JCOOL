@@ -5,7 +5,11 @@
 
 package cz.cvut.felk.cig.jcool.ui.model;
 
-import cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
+import java.util.List;
+
 import org.ytoh.configurations.PropertyState;
 import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
@@ -13,10 +17,7 @@ import org.ytoh.configurations.context.MutableContext;
 import org.ytoh.configurations.ui.DynamicDropDown;
 import org.ytoh.configurations.ui.DynamicDropDown.Label;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.util.List;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
 
 /**
  *
@@ -38,8 +39,8 @@ public class Visualization implements PropertyChangeListener{
     // Primary visualization
     /////////////////////////////////
     @Property(name="Primary:")
-    @DynamicDropDown(type=cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization.class, key="visualizations", label = Label.NAME)
-    private cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization primaryVisualization;
+    @DynamicDropDown(type=TelemetryVisualization.class, key="visualizations", label = Label.NAME)
+    private TelemetryVisualization primaryVisualization;
 
     private PropertyState primaryVisualizationState = PropertyState.ENABLED;
     
@@ -51,11 +52,11 @@ public class Visualization implements PropertyChangeListener{
         return primaryVisualizationState;
     }
 
-    public cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization getPrimaryVisualization() {
+    public TelemetryVisualization getPrimaryVisualization() {
         return primaryVisualization;
     }
 
-    public void setPrimaryVisualization(cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization primaryVisualization) {
+    public void setPrimaryVisualization(TelemetryVisualization primaryVisualization) {
         this.primaryVisualization = primaryVisualization;
     }
 
@@ -63,8 +64,8 @@ public class Visualization implements PropertyChangeListener{
     // Secondary visualization
     /////////////////////////////////
     @Property(name="Secondary:")
-    @DynamicDropDown(type=cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization.class, key="visualizations", label = Label.NAME)
-    private cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization secondaryVisualization;
+    @DynamicDropDown(type=TelemetryVisualization.class, key="visualizations", label = Label.NAME)
+    private TelemetryVisualization secondaryVisualization;
 
     private PropertyState secondaryVisualizationState = PropertyState.ENABLED;
 
@@ -76,11 +77,11 @@ public class Visualization implements PropertyChangeListener{
         return secondaryVisualizationState;
     }
 
-    public cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization getSecondaryVisualization() {
+    public TelemetryVisualization getSecondaryVisualization() {
         return secondaryVisualization;
     }
 
-    public void setSecondaryVisualization(cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization secondaryVisualization) {
+    public void setSecondaryVisualization(TelemetryVisualization secondaryVisualization) {
         this.secondaryVisualization = secondaryVisualization;
     }
 

@@ -1,9 +1,20 @@
 package cz.cvut.felk.cig.jcool.ui.view;
 
-import cz.cvut.felk.cig.jcool.core.*;
-import cz.cvut.felk.cig.jcool.core.Point;
-import cz.cvut.felk.cig.jcool.experiment.Iteration;
-import cz.cvut.felk.cig.jcool.experiment.TelemetryVisualization;
+import java.awt.BasicStroke;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
+import java.awt.Stroke;
+import java.awt.geom.GeneralPath;
+import java.util.Comparator;
+import java.util.List;
+import java.util.TreeSet;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+import javax.swing.JPanel;
+
 import org.apache.commons.collections.Closure;
 import org.apache.log4j.Logger;
 import org.opensourcephysics.display.DrawingPanel;
@@ -14,13 +25,13 @@ import org.ytoh.configurations.annotations.Component;
 import org.ytoh.configurations.annotations.Property;
 import org.ytoh.configurations.annotations.Range;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.geom.GeneralPath;
-import java.util.Comparator;
-import java.util.List;
-import java.util.TreeSet;
-import java.util.concurrent.CopyOnWriteArrayList;
+import cz.cvut.fit.cig.jcool.experiment.Iteration;
+import cz.cvut.fit.cig.jcool.experiment.TelemetryVisualization;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.Point;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.ValuePointColored;
+import cz.cvut.fit.jcool.core.ValuePointListTelemetryColored;
 
 /**
  * Created by IntelliJ IDEA.

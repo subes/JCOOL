@@ -2,18 +2,20 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.fit.jcool.experiment.util;
+package cz.cvut.fit.cig.jcool.experiment.util;
 
-import cz.cvut.fit.jcool.Consumer;
-import cz.cvut.fit.jcool.Producer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Transformer;
+
+import cz.cvut.fit.jcool.core.Consumer;
+import cz.cvut.fit.jcool.core.Producer;
 
 /**
  *
