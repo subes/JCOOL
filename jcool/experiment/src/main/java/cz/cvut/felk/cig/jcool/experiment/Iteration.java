@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.Telemetry;
 
 /**
  *

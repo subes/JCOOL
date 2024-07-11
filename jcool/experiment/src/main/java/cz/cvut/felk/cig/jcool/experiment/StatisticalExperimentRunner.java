@@ -3,12 +3,12 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.solver.Solver;
+import cz.cvut.fit.jcool.Function;
+import cz.cvut.fit.jcool.OptimizationMethod;
+import cz.cvut.fit.jcool.Telemetry;
+import cz.cvut.fit.jcool.solver.Solver;
 import java.util.ArrayList;
 import java.util.List;
 

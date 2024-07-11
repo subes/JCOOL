@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
 /**
  *

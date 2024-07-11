@@ -3,10 +3,10 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment.util;
+package cz.cvut.fit.jcool.experiment.util;
 
-import cz.cvut.felk.cig.jcool.core.Consumer;
-import cz.cvut.felk.cig.jcool.core.Producer;
+import cz.cvut.fit.jcool.Consumer;
+import cz.cvut.fit.jcool.Producer;
 import java.util.HashSet;
 import java.util.Set;
 

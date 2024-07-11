@@ -3,10 +3,10 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.*;
-import cz.cvut.felk.cig.jcool.core.ValuePointListTelemetryColored;
+import cz.cvut.fit.jcool.*;
+import cz.cvut.fit.jcool.ValuePointListTelemetryColored;
 
 import java.util.ArrayList;
 import java.util.List;

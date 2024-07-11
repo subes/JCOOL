@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.Consumer;
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.StopCondition;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
-import cz.cvut.felk.cig.jcool.solver.OptimizationResults;
-import cz.cvut.felk.cig.jcool.solver.Solver;
+import cz.cvut.fit.jcool.Consumer;
+import cz.cvut.fit.jcool.Function;
+import cz.cvut.fit.jcool.OptimizationMethod;
+import cz.cvut.fit.jcool.Producer;
+import cz.cvut.fit.jcool.StopCondition;
+import cz.cvut.fit.jcool.Telemetry;
+import cz.cvut.fit.jcool.solver.OptimizationResults;
+import cz.cvut.fit.jcool.solver.Solver;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;

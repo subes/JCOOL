@@ -4,14 +4,14 @@
  */
 package cz.cvut.felk.cig.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.Function;
-import cz.cvut.felk.cig.jcool.core.OptimizationMethod;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.core.Function;
+import cz.cvut.fit.jcool.core.OptimizationMethod;
+import cz.cvut.fit.jcool.core.Producer;
+import cz.cvut.fit.jcool.core.Telemetry;
 import cz.cvut.felk.cig.jcool.experiment.ExperimentRun.ExperimentRunBuilder;
 import cz.cvut.felk.cig.jcool.experiment.util.*;
-import cz.cvut.felk.cig.jcool.solver.Solver;
-import cz.cvut.felk.cig.jcool.solver.UserInterruptStopCondition;
+import cz.cvut.fit.jcool.solver.Solver;
+import cz.cvut.fit.jcool.solver.UserInterruptStopCondition;
 import org.apache.log4j.Logger;
 import org.ytoh.configurations.util.Annotations;
 

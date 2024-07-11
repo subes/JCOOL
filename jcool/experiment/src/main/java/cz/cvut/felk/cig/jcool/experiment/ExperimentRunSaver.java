@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.*;
-import cz.cvut.felk.cig.jcool.solver.OptimizationResults;
-import cz.cvut.felk.cig.jcool.solver.Statistics;
+import cz.cvut.fit.jcool.*;
+import cz.cvut.fit.jcool.solver.OptimizationResults;
+import cz.cvut.fit.jcool.solver.Statistics;
 import java.beans.DefaultPersistenceDelegate;
 import java.beans.Encoder;
 import java.beans.Expression;

@@ -3,11 +3,11 @@
  * and open the template in the editor.
  */
 
-package cz.cvut.felk.cig.jcool.experiment;
+package cz.cvut.fit.jcool.experiment;
 
-import cz.cvut.felk.cig.jcool.core.Consumer;
-import cz.cvut.felk.cig.jcool.core.Producer;
-import cz.cvut.felk.cig.jcool.core.Telemetry;
+import cz.cvut.fit.jcool.Consumer;
+import cz.cvut.fit.jcool.Producer;
+import cz.cvut.fit.jcool.Telemetry;
 import java.util.ArrayList;
 import java.util.List;
 
