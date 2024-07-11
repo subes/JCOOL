@@ -6,7 +6,6 @@
 package cz.cvut.felk.cig.jcool.core;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Wrapper class around a point (or input vector) array.
@@ -83,10 +82,34 @@ public class Point {
     public static final Point random(int dimension, double min, double max) {
         double[] array = new double[dimension];
 
-        for (int i = 0; i < array.length; i++)
-          array[i] = Math.random() * (max - min) + min;
-
+        for (int i = 0; i < array.length; i++) {
+            array[i] = Math.random() * (max - min) + min;
+        }
         return new Point(array);
+    }
+
+    /**
+     * Return dimension of point
+     *
+     * @return point's dimension
+     */
+    public int dimension() {
+        if (array != null) {
+            return array.length;
+        }
+        return 0;
+    }
+
+    /**
+     *
+     * @param dimension
+     * @return coordinate value at given dimension
+     */
+    public double value(int dimension) {
+        if (dimension < 0 || dimension > array.length) {
+            throw new RuntimeException("invalid dimension = " + dimension);
+        }
+        return array[dimension];
     }
 
     /**
@@ -123,16 +146,23 @@ public class Point {
             return false;
         }
         final Point other = (Point) obj;
-        if (this.array != other.array && (this.array == null || !Arrays.equals(this.array,other.array))) {
-            return false;
-        }
-        return true;
+        return this.array == other.array || (this.array != null && Arrays.equals(this.array, other.array));
     }
 
+    /**
+     * Deep hash by content not by an array reference
+     * Point [1,1] and [1,1] should have same hash
+     *
+     * @return hash code
+     */
     @Override
     public int hashCode() {
         int hash = 3;
-        hash = 89 * hash + (this.array != null ? this.array.hashCode() : 0);
-        return hash;
+        if (this.array != null) {
+            for (int i = 0; i < array.length; i++) {
+                hash += array[i] * 13;
+            }
+        }
+        return 89 * hash;
     }
 }

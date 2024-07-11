@@ -75,10 +75,7 @@ public class Gradient {
             return false;
         }
         final Gradient other = (Gradient) obj;
-        if (this.array != other.array && (this.array == null || !Arrays.equals(this.array, other.array))) {
-            return false;
-        }
-        return true;
+        return this.array == other.array || (this.array != null && Arrays.equals(this.array, other.array));
     }
 
     @Override

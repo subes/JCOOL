@@ -155,23 +155,20 @@ public class BasicSolver implements Solver {
      */
     private boolean checkStopConditions() {
         logger.debug("checking stop conditions");
-
-        for (int i = 0; i < methodConditions.length; i++) {
-            if (methodConditions[i].isConditionMet()) {
-                if(logger.isDebugEnabled()) {
-                    logger.debug("condition met: " + methodConditions[i]);
+        for (StopCondition methodCondition : methodConditions) {
+            if (methodCondition.isConditionMet()) {
+                if (logger.isDebugEnabled()) {
+                    logger.debug("condition met: " + methodCondition);
                 }
-
-                metConditions.add(methodConditions[i]);
+                metConditions.add(methodCondition);
             }
         }
-        for (int i = 0; i < systemConditions.length; i++) {
-            if (systemConditions[i].isConditionMet()) {
-                if(logger.isDebugEnabled()) {
-                    logger.debug("condition met: " + systemConditions[i]);
+        for (StopCondition systemCondition : systemConditions) {
+            if (systemCondition.isConditionMet()) {
+                if (logger.isDebugEnabled()) {
+                    logger.debug("condition met: " + systemCondition);
                 }
-
-                metConditions.add(systemConditions[i]);
+                metConditions.add(systemCondition);
             }
         }
 

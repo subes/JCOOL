@@ -80,10 +80,7 @@ public class Hessian {
             return false;
         }
         final Hessian other = (Hessian) obj;
-        if (this.array != other.array && (this.array == null || !Arrays.equals(this.array,other.array))) {
-            return false;
-        }
-        return true;
+        return this.array == other.array || (this.array != null && Arrays.equals(this.array, other.array));
     }
 
     @Override

@@ -89,10 +89,7 @@ public class ValuePoint implements Comparable<ValuePoint> {
         if (this.point != other.point && (this.point == null || !this.point.equals(other.point))) {
             return false;
         }
-        if (this.value != other.value) {
-            return false;
-        }
-        return true;
+        return this.value == other.value;
     }
 
     @Override
@@ -106,11 +103,13 @@ public class ValuePoint implements Comparable<ValuePoint> {
     public int compareTo(ValuePoint o) {
         //return (int) (o.getValue() - this.getValue());
 
-        if (this.getValue() > o.getValue())
+        if (this.getValue() > o.getValue()) {
             return 1;
+        }
 
-        if (this.getValue() < o.getValue())
+        if (this.getValue() < o.getValue()) {
             return -1;
+        }
 
         return 0;
     }
