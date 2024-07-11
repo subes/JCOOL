@@ -112,7 +112,7 @@
             <version>0.6.3-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>cz.cvut.fit</groupId>
+            <groupId>cz.cvut.fit.jcool</groupId>
             <artifactId>jcool-experiment</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
